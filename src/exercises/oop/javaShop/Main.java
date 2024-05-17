@@ -23,7 +23,7 @@ public class Main {
 
         //il prodotto esponga un metodo per avere il nome esteso, ottenuto concatenando codice-nome
         String product1Name = product1.getName();
-
+        System.out.println("Nome del prodotto: " + product1Name);
         //prodotto 2
         Product product2 = new Product(22, "Dash", "Detersivo lavatrice", 5.49);
         //il codice è un numero randomico tra 2 e 99
@@ -43,6 +43,6 @@ public class Main {
 
         //il prodotto esponga un metodo per avere il nome esteso, ottenuto concatenando codice-nome
         String product2Name = product2.getName();
-        System.out.println("Nome del prodotto: " + product1Name);
+        System.out.println("Nome del prodotto: " + product2Name);
     }
 }

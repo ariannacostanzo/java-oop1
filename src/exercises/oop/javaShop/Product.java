@@ -48,7 +48,7 @@ public class Product {
 
 
     public String getName() {
-        return code + "-" + name;
+        return getCode() + "-" + name;
     }
 
     public void setName(String name) {
